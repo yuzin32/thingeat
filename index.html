@@ -46,50 +46,7 @@
 #id img{
 	width: 20px;
 }
-.clearfix{
-	clear:left;
-}
-.search{ /*검색창*/
-	width: 350px;
-	top: 230px;
-	left: 50%;
-	transform: translate(-50%,0%);
-	position: absolute;
-	border: 3px solid skyblue;
-	border-radius: 13px;
-	float: left;
-	text-align: center;
-}
-.look_iput{ /*검색 하는 곳*/
-	width: 250px;
-	border: none;
-	margin: 0px;
-	padding: 7px;
-}
-.look_input2{ /*검색 이미지*/
-	display: inline-block;
-	text-align: center;
-	border: none;
-	width: 20px;
-	padding:0px;
-	margin-top: 7px;
-}
-.content_p{
-	margin-top: 255px;
-	margin-left: 50%;
-	transform: translate(-50%,0%);
-	display: inline-block;
-	text-align: center;
-}
-.menu{
-	padding-top: 20px;
-}
-.menu a{
-	color: white;
-	display: inline-block;
-	text-align: center;
-	width: 330px;
-}
+
 </style>
 <body>
 <div class="benner">
@@ -98,30 +55,5 @@
         <a id="logo_name" href="\thingeat\src\main\resources\templates\articles\home">띵잇</a>
     </div>
 
-    <form>
-        <div class="search">
-            <input type="text" class="look_iput" placeholder="검색어를 입력해주세요" title="검색창">
-            <input type="image" class="look_input2" alt="검색" src="/img/search.png">
-        </div>
-    </form>
-
-    <ul id="id">
-        <li><a href="/help"><img src="/img/help.png"></a></li>
-        <li><a href="/join">회원가입</a></li>
-        <li><a href="/login">로그인</a></li>
-    </ul>
-
-    <div class='clearfix'></div>
-</div>
-
-<div class="menu">
-    <ul>
-        <li id='mypage'><a href="#">MY 페이지</a></li>
-        <li id='advice'><a href="/advice">권유</a></li>
-        <li id='recipe'><a href="/recipe">공유</a></li>
-        <li id='disease'><a href="/disease">질병</a></li>
-    </ul>
-    <div class='clearfix'></div>
-</div>
  </body>
 </html>
