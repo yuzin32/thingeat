@@ -1,0 +1,93 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    border-collapse: collapse;
+    text-decoration: nonen;
+    text-decoration: none;
+    font-family: 'Jua', sans-serif;
+    color: #999999;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrap{  /*home.html*/
+    padding-top: 50px;
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30px;
+    left: 30%;
+}
+
+.benner{/*1*/
+    display: table;
+    width: 100%;
+    height: 25%;
+}
+
+.benner #logo_name{ /*logo text*/
+	font-size: 100px;
+	margin-top: 120px;
+    color: pink;
+    line-height:  normal;
+}
+
+.logo{
+    height: 50px;
+    width:180px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+}
+.login_content{/*2*/
+    display: table;
+    width: 100%;
+    height: 50%;
+
+
+}
+.idpw{vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    margin-left:25%;
+    width:75%;
+}
+.lnput_id{
+    background-color:#999999;
+    text-align: center;
+    height: 30px;
+    margin: : 3px;
+    width:75%;
+}
+.lnput_pw{
+    margin: 3px;
+    background-color:#999999;
+    text-align: center;
+    height: 30px;
+    width:75%;
+}
+.login_content #ok_bt{
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    margin-right:5%;
+    width:5%;
+
+}
+.login_content2{/*3*/
+    display: table;
+    width:50%;
+    height: 25%;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+.login_content2 #join #find_idpw{
+    margin:3px;
+    width: 200px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+
+}

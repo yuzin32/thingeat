@@ -1,0 +1,33 @@
+html,body{height: 100%; background: #000000;}
+*{margin: 0; padding:0; }
+
+.benner{
+    background-color:white;margin: 10px;box-sizing: border-box;}
+    a{
+       text-decoration: none;
+       color: #999999;
+    }
+    /*id*/
+    .logo{ /*logo img*/
+       float: left;
+       width: 160px;
+       padding: 10px;
+       margin: 0px;
+       border:1px solid white;
+    }
+    .logo #logo_name{ /*logo text*/
+       font-size: 30px;
+       margin-top: 60px;
+       float: right;
+    }
+    #id li{ /*로그인 버:*/
+       float: right;
+       padding-right: 10px;
+       margin-left: 5px;
+       line-height: 20px;
+       list-style: none;
+       font-size: 13px;
+    }
+    .clearfix{
+       clear:left;
+    }

@@ -1,0 +1,28 @@
+{{>layout/header}}
+<link rel="stylesheet" href="/css/show1_css.css">
+
+<div id='content'>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">Content</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#article}}
+        <tr>
+            <th>{{id}}</th>
+            <td>{{title}}</td>
+            <td>{{content}}</td>
+        </tr>
+    {{/article}}
+    </tbody>
+</table>
+    <a href="/recipe" class="button btnPush btnGreen">게시글 보기</a>
+    <a href="/recipe/{{article.id}}/delete" class="button btnPush btnRed">삭제</a>
+    <a href="/recipe/{{article.id}}/edit" class="button btnPush btnBlueGreen">수정</a>
+</div>
+
+{{>layout/footer}}

@@ -1,0 +1,40 @@
+{{>layout/header}}
+<link rel="stylesheet" href="/css/recipe1_css.css">
+
+<div id='content'>
+    <div class='recipe_bar'>
+        <ul>
+            <li><a href="#">인기 요리</a></li>
+            <li><a href="#">최근 요리</a></li>
+            <li><a href="#">밥</a></li>
+            <li><a href="#">국</a></li>
+            <li><a href="#">찌개</a></li>
+        </ul>
+    </div>
+
+    <div class='recipe'>
+        <h3 id='hot_recipe'> 인기 요리 </h3>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Content</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#articleList}}
+                <tr>
+                    <th>{{id}}</th>
+                    <td><a href="/recipe/{{id}}">{{title}}</a></td>
+                    <td>{{content}}</td>
+                </tr>
+            {{/articleList}}
+            </tbody>
+        </table>
+
+        <a href="/new" title="Button push blue/green" class="button btnPush btnBlueGreen">   +   </a>
+    </div>
+</div>
+
+{{>layout/footer}}

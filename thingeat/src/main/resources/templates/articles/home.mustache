@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>띵잇</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/home_css.css">
+    <script>
+        function zoomIn(event){
+            event.target.style.width="500px";
+	        event.target.style.transition="all 0.5s";
+        }
+        function zoomOut(event){
+	        event.target.style.width="330px";
+	        event.target.style.transition="all 0.5s";
+        }
+    </script>
+</head>
+<body>
+<div class="benner">
+    <div class="logo">
+        <a href="/home"><img src="/img/main_logo.png" width="100"></a>
+        <a id="logo_name" href="/home">띵잇</a>
+    </div>
+
+    <ul id="id">
+        <li><a href="/help"><img src="/img/help.png"></a></li>
+        <li><a href="/join">회원가입</a></li>
+        <li><a href="/login">로그인</a></li>
+    </ul>
+
+    <div class='clearfix'></div>
+</div>
+
+<div>
+    <form>
+        <div class="search">
+            <input type="text" class="look_iput" placeholder="검색어를 입력해주세요" title="검색창">
+            <input type="image" class="look_input2" alt="검색" src="/img/search.png">
+        </div>
+    </form>
+</div>
+
+<div class="content_p">
+    <p>지병끼리의 연관성을 찾은 후</p>
+    <p>고객에 맞는 요리법을 추천해드립니다</p>
+</div>
+
+<div class="menu">
+    <div class="mypage"
+         onmouseenter="zoomIn(event)"
+         onmouseleave="zoomOut(event)">
+        <a href="#">my 페이지</a>
+    </div>
+
+    <div class="recipe"
+         onmouseenter="zoomIn(event)"
+         onmouseleave="zoomOut(event)">
+        <a href="/recipe">요리공유</a>
+    </div>
+
+    <div class="advice"
+         onmouseenter="zoomIn(event)"
+         onmouseleave="zoomOut(event)">
+        <a href="/advice">권유 음식</a>
+    </div>
+
+    <div class="disease"
+         onmouseenter="zoomIn(event)"
+         onmouseleave="zoomOut(event)">
+        <a href="/disease">질병</a>
+    </div>
+</div>
+</body>
+</html>

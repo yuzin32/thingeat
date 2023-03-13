@@ -1,0 +1,131 @@
+a{
+	text-decoration: none;
+	color: #999999;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.benner{
+	margin: 10px;
+	height: 10px;
+}
+.logo{ /*logo img, text*/
+	float: left;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%,0%);
+	width: 270px;
+	padding: 10px;
+	margin: 0px;
+}
+.logo img{
+	width: 180px;
+}
+.logo #logo_name{ /*logo text*/
+	font-size: 45px;
+	margin-top: 120px;
+	float: right;
+}
+#id li{ /*로그인 창*/
+	float: right;
+	padding-right: 10px;
+	margin-left: 5px;
+	line-height: 20px;
+	list-style: none;
+	font-size: 13px;
+}
+#id img{
+	width: 20px;
+}
+.clearfix{
+	clear:left;
+}
+.search{ /*검색창*/
+	width: 350px;
+	top: 230px;
+	left: 50%;
+	transform: translate(-50%,0%);
+	position: absolute;
+	border: 3px solid skyblue;
+	border-radius: 13px;
+	float: left;
+	text-align: center;
+}
+.look_iput{ /*검색 하는 곳*/
+	width: 250px;
+	border: none;
+	margin: 0px;
+	padding: 7px;
+}
+.look_input2{ /*검색 이미지*/
+	display: inline-block;
+	text-align: center;
+	border: none;
+	width: 20px;
+	padding:0px;
+	margin-top: 7px;
+}
+.content_p{
+	margin-top: 255px;
+	margin-left: 50%;
+	transform: translate(-50%,0%);
+	display: inline-block;
+	text-align: center;
+}
+.menu{
+	padding-top: 20px;
+}
+.menu a{
+	color: white;
+	display: inline-block;
+	text-align: center;
+	width: 330px;
+}
+.mypage{ /*my page*/
+	background-color: #6799FF;
+	text-align: center;
+	width: 330px;
+	height: 65px;
+	font-size: 25px;
+	padding-top: 15px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.recipe{ /*요리 공유 페이지*/
+	background-color: #5CD1E5;
+	text-align: center;
+	width: 330px;
+	height: 65px;
+	margin-top: -60px;
+	font-size: 25px;
+	padding-top: 15px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	float: right;
+}
+.advice{ /*권유 페이지*/
+	background-color: #5CD1E5;
+	text-align: center;
+	width: 330px;
+	height: 65px;
+	margin-top: 30px;
+	font-size: 25px;
+	padding-top: 15px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.disease{ /*질병 페이지*/
+	background-color: #6799FF;
+	text-align: center;
+	width: 330px;
+	height: 65px;
+	margin-top: -60px;
+	margin-bottom: 5px;
+	font-size: 25px;
+	padding-top: 15px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	float: right;
+}

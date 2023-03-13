@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>join</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/join_Style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="benner">
+    <div class="logo">
+        <a href="/home"><img src="/img/login_logo.png" width="100"></a>
+        <a id="logo_name" href="/home">띵잇</a>
+    </div>
+
+
+    <ul id="id">
+        <li><a href="/help"><img src="/img/help.png" width="30px"></a></li>
+        <li><a href="/login">로그인</a></li>
+    </ul>
+
+    <div class='clearfix'></div>
+</div>
+<div class="main_f">
+    <div class="menu">
+        <ul>
+            <li id='id_find'>회원가입</li>
+        </ul>
+        <div class='clearfix'></div>
+    </div>
+    <div class='content'>
+        <div class='point'>
+            닉네임<input type="text" id='j_nic' placeholder="닉네임" title=""/>
+            <br>나이<br><input type="text" id='j_old' placeholder="나이" title=""/>
+            <br>지병<br><input type="text" id='j_disease' placeholder="지병" title=""/>
+            <br>ID<br><input type="text" id='j_id' placeholder="아이디" title=""/>
+            <br>비밀번호<br><input type="text" id='j_pw' placeholder="비밀번호" title=""/>
+            <br>찾기 보안 질문<br>
+            <input type="text" id='j_an' placeholder="답변" title=""/>
+            <form >
+                <select  name="questions">
+                    <option value="내가 나온 초등학교는?">내가 나온 초등학교는?</option>
+                    <option value="내 어린시절 별명은?">"내 어린시절 별명은?"</option>
+                    <option value="내가 어린시절 살았던 동네는?">"내가 어린시절 살았던 동네는?"</option>
+                    <option value="어머님 성함은?">"어머님 성함은?"</option>
+                </select>
+            </form>
+        </div>
+
+        </form>
+        <a id="ok_bt" href="#"><img src="/img/ok.png" width="150"></a>
+    </div>
+</div>
+</body>
+</html>
